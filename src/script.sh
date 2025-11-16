@@ -1,15 +1,3 @@
-# Team Softcone
-Uni-dthon
-
-## 재현법
-모든 코드는 기본적으로 Seed가 42로 고정되어 있습니다.
-### load dataset
-1. download from dacon
-2. convert press#, report# -> # (# is jpg, json)
-
-### Run python code 
-자세한 내용은 script.sh를 참고하세요.
-```shell
 # 1. Preprocess
 python src/preprocess.py --preprocess_json
 
@@ -44,5 +32,4 @@ python clip_train_cached.py \
   --save_ckpt outputs/clip_matching/best_clip_cached.pth
 
 # 5. Predict
-python test.py --yolo_model_path outputs/yolo_models/doc_detection/weights/best.pt --out_csv result_final.csv --clip_ckpt outputs/clip_matching/best_clip_cached_answer.pth --sample_submission data/sample_submission.csv
-```
+python predict.py --yolo_model_path outputs/yolo_models/doc_detection/weights/best.pt --out_csv result_final.csv --clip_ckpt outputs/clip_matching/best_clip_cached_answer.pth --sample_submission data/sample_submission.csv
