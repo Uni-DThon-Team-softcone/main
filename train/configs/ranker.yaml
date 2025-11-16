@@ -1,0 +1,16 @@
+data_root: ~/data
+output_model: outputs/ranker/lightgbm.txt
+preprocessed_dir: train/preprocessed
+max_queries_per_page: 8
+prep_splits:
+  - train
+  - valid
+prep_groups:
+  - press
+  - report
+lightgbm:
+  n_estimators: 400
+  learning_rate: 0.05
+  num_leaves: 63
+  objective: lambdarank
+  metric: ndcg

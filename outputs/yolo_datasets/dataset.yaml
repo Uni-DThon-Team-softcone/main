@@ -1,0 +1,15 @@
+names:
+  '0': L01
+  '1': L02
+  '2': L03
+  '3': T01
+  '4': T02
+  '5': T03
+  '6': V01
+  '7': V02
+  '8': V03
+nc: 9
+path: /workspace/kimh/outputs/yolo_datasets
+test: images/test
+train: images/train
+val: images/val

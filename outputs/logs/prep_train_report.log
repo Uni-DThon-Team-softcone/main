@@ -1,0 +1,12 @@
+[prep] Skipping malformed JSON /workspace/data/train/json/MI3_240725_TY2_0271_2.json: Expecting value: line 1 column 1 (char 0)
+[prep] Skipping malformed JSON /workspace/data/train/json/MI3_240729_TY2_0071_2.json: Expecting value: line 1 column 1 (char 0)
+[prep] Skipping malformed JSON /workspace/data/train/json/MI3_240729_TY2_0223_7.json: Expecting value: line 1 column 1 (char 0)
+[prep] Skipping malformed JSON /workspace/data/train/json/MI3_240729_TY2_0344_3.json: Expecting value: line 1 column 1 (char 0)
+[prep] Skipping malformed JSON /workspace/data/train/json/MI3_240729_TY2_0472_3.json: Expecting value: line 1 column 1 (char 0)
+[prep] Skipping malformed JSON /workspace/data/train/json/MI3_240729_TY2_0596_2.json: Expecting value: line 1 column 1 (char 0)
+[prep] Skipping malformed JSON /workspace/data/train/json/MI3_240730_TY2_0188_3.json: Expecting value: line 1 column 1 (char 0)
+[prep] Skipping malformed JSON /workspace/data/train/json/MI3_240731_TY2_0331_1.json: Expecting value: line 1 column 1 (char 0)
+[prep] Skipping malformed JSON /workspace/data/train/json/MI3_240731_TY2_0469_2.json: Expecting value: line 1 column 1 (char 0)
+[prep] Skipping malformed JSON /workspace/data/train/json/MI3_240805_TY2_0440_4.json: Expecting value: line 1 column 1 (char 0)
+Wrote CSVs:
+/workspace/kimh/train/preprocessed/train_report.csv

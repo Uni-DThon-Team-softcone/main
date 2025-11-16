@@ -1,0 +1,17 @@
+data_root: ~/data
+output_model: outputs/refiner/refiner.pt
+preprocessed_dir: train/preprocessed
+prep_splits:
+  - train
+prep_groups:
+  - press
+  - report
+epochs: 5
+batch_size: 256
+learning_rate: 0.001
+noise_std: 0.05
+samples_per_annotation: 3
+categories:
+  - chart
+  - table
+  - diagram

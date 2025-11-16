@@ -1,0 +1,6 @@
+{
+  "train_samples": 276464,
+  "valid_samples": 35519,
+  "groups_train": 78817,
+  "groups_valid": 9991
+}

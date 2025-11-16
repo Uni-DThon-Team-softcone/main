@@ -1,0 +1,13 @@
+output_dir: outputs/detector
+yolo:
+  model: yolo11m.pt
+  data: outputs/yolo_datasets/dataset.yaml
+  project: outputs/yolo_models
+  name: doclayout_yolo
+  epochs: 40
+  imgsz: 1024
+  batch: 64
+  workers: 8
+  device: 0
+  pretrained: true
+  patience: 50
